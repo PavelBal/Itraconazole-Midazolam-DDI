@@ -1,5 +1,7 @@
 {
-  "Version": 80,
+  "Name": "Itraconazole-Midazolam-DDI",
+  "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -10,12 +12,14 @@
         {
           "Path": "CYP3A4|Reference concentration",
           "Value": 4.32,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A4|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A4|t1/2 (liver)",
@@ -27,51 +31,63 @@
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
+          "Value": 0.0041682898325,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
+          "Value": 0.00078691079081,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
+          "Value": 0.0053603428126,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
+          "Value": 0.00042695753798,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -88,117 +104,145 @@
         {
           "Path": "AADAC|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05
+          "Value": 3.9102564103e-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05
+          "Value": 3.9102564103e-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "AADAC|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "AADAC|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05
+          "Value": 4.8717948718e-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05
+          "Value": 3.9743589744e-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|AADAC|Relative expression",
-          "Value": 0.0011923076923
+          "Value": 0.0011923076923,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Heart|Intracellular|AADAC|Relative expression",
-          "Value": 0.0026602564103
+          "Value": 0.0026602564103,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05
+          "Value": 5.7051282051e-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|AADAC|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|AADAC|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|AADAC|Relative expression",
-          "Value": 0.0269230769
+          "Value": 0.0269230769,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Muscle|Intracellular|AADAC|Relative expression",
-          "Value": 0.00020833333333
+          "Value": 0.00020833333333,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Pancreas|Intracellular|AADAC|Relative expression",
-          "Value": 0.1474358974
+          "Value": 0.1474358974,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Spleen|Intracellular|AADAC|Relative expression",
-          "Value": 0.00037115384615
+          "Value": 0.00037115384615,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Stomach|Intracellular|AADAC|Relative expression",
-          "Value": 0.0775641026
+          "Value": 0.0775641026,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
@@ -211,95 +255,118 @@
       "Parameters": [
         {
           "Path": "Organism|Bone|Intracellular|P-gp|Relative expression",
-          "Value": 0.0242518189
+          "Value": 0.0242518189,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|P-gp|Relative expression",
-          "Value": 0.07608904
+          "Value": 0.07608904,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|P-gp|Relative expression",
-          "Value": 0.017417973
+          "Value": 0.017417973,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Heart|Intracellular|P-gp|Relative expression",
-          "Value": 0.0419198106
+          "Value": 0.0419198106,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|P-gp|Relative expression",
-          "Value": 0.7092198582
+          "Value": 0.7092198582,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|P-gp|Relative expression",
-          "Value": 0.1108416465
+          "Value": 0.1108416465,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|P-gp|Relative expression",
-          "Value": 0.3971631206
+          "Value": 0.3971631206,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|P-gp|Relative expression",
-          "Value": 0.3971631206
+          "Value": 0.3971631206,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|P-gp|Relative expression",
-          "Value": 0.3971631206
+          "Value": 0.3971631206,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|P-gp|Relative expression",
-          "Value": 0.3971631206
+          "Value": 0.3971631206,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|P-gp|Relative expression",
-          "Value": 0.1916810428
+          "Value": 0.1916810428,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|P-gp|Relative expression",
-          "Value": 0.1916810428
+          "Value": 0.1916810428,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|P-gp|Relative expression",
-          "Value": 0.0657549316
+          "Value": 0.0657549316,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Muscle|Intracellular|P-gp|Relative expression",
-          "Value": 0.0128342959
+          "Value": 0.0128342959,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Pancreas|Intracellular|P-gp|Relative expression",
-          "Value": 0.0142510689
+          "Value": 0.0142510689,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|P-gp|Relative expression",
-          "Value": 0.2808543974
+          "Value": 0.2808543974,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|P-gp|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|P-gp|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|P-gp|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|P-gp|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|P-gp|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Spleen|Intracellular|P-gp|Relative expression",
-          "Value": 0.0742555691
+          "Value": 0.0742555691,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Stomach|Intracellular|P-gp|Relative expression",
-          "Value": 0.0260852897
+          "Value": 0.0260852897,
+          "ValueOrigin": {}
         },
         {
           "Path": "P-gp|Reference concentration",
@@ -312,12 +379,14 @@
         {
           "Path": "P-gp|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "P-gp|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         }
       ],
       "TransportType": "Efflux",
@@ -548,17 +617,17 @@
           "Percentile": 0.0,
           "DistributionMetaData": [
             {
-              "Mean": 1E-14,
+              "Mean": 1e-14,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 1.915059E-05,
+              "Mean": 1.915059e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 5.486795E-05,
+              "Mean": 5.486795e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
@@ -677,17 +746,17 @@
           "Points": [
             {
               "X": 0.0,
-              "Y": 1E-14,
+              "Y": 1e-14,
               "RestartSolver": false
             },
             {
               "X": 0.08333334,
-              "Y": 1.915059E-05,
+              "Y": 1.915059e-05,
               "RestartSolver": false
             },
             {
               "X": 0.1666667,
-              "Y": 5.486795E-05,
+              "Y": 5.486795e-05,
               "RestartSolver": false
             },
             {
@@ -808,45 +877,55 @@
         {
           "Path": "OATP1B1|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "OATP1B1|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "OATP1B1|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.00014166666667
+          "Value": 0.00014166666667,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.0141666667
+          "Value": 0.0141666667,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Heart|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.0008253968254
+          "Value": 0.0008253968254,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05
+          "Value": 4.0079365079e-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.00064682539683
+          "Value": 0.00064682539683,
+          "ValueOrigin": {}
         }
       ],
       "TransportType": "Influx",
@@ -1088,108 +1167,134 @@
         {
           "Path": "ATP1A2|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "ATP1A2|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Bone|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0062154033171
+          "Value": 0.0062154033171,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|ATP1A2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0508741242
+          "Value": 0.0508741242,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Heart|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.3179118843
+          "Value": 0.3179118843,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0158938619
+          "Value": 0.0158938619,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0786998764
+          "Value": 0.0786998764,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0786998764
+          "Value": 0.0786998764,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0786998764
+          "Value": 0.0786998764,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0786998764
+          "Value": 0.0786998764,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0786998764
+          "Value": 0.0786998764,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0223784807
+          "Value": 0.0223784807,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0223784807
+          "Value": 0.0223784807,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0272345453
+          "Value": 0.0272345453,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Muscle|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.7034193524
+          "Value": 0.7034193524,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Pancreas|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0073903254795
+          "Value": 0.0073903254795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Skin|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0389467988
+          "Value": 0.0389467988,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
+          "Value": 0.0501579923,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
+          "Value": 0.0501579923,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
+          "Value": 0.0501579923,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
+          "Value": 0.0501579923,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
+          "Value": 0.0501579923,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0501579923
+          "Value": 0.0501579923,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Spleen|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0103243118
+          "Value": 0.0103243118,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Stomach|Intracellular|ATP1A2|Relative expression",
-          "Value": 0.0309435884
+          "Value": 0.0309435884,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Interstitial, BloodCellsMembrane, VascMembranePlasmaSide"
@@ -1202,11 +1307,13 @@
       "Parameters": [
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|UGT1A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|UGT1A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT1A4|Reference concentration",
@@ -1219,12 +1326,14 @@
         {
           "Path": "UGT1A4|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT1A4|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -1249,16 +1358,19 @@
         {
           "Path": "GABRG2|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "GABRG2|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|GABRG2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Interstitial, BloodCellsMembrane, VascMembranePlasmaSide"
@@ -1282,7 +1394,8 @@
         {
           "Path": "CYP3A4|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A4|t1/2 (liver)",
@@ -1294,51 +1407,63 @@
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
+          "Value": 0.0041682898325,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
+          "Value": 0.00078691079081,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
+          "Value": 0.0053603428126,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
+          "Value": 0.00042695753798,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -1456,7 +1581,8 @@
             {
               "Name": "Fraction unbound (plasma, reference value)",
               "Value": 0.6016197247,
-              "Unit": "%"
+              "Unit": "%",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1491,11 +1617,13 @@
             {
               "Name": "Solubility at reference pH",
               "Value": 1.58,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Reference pH",
-              "Value": 6.5
+              "Value": 6.5,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -1515,7 +1643,8 @@
             },
             {
               "Name": "Reference pH",
-              "Value": 6.5
+              "Value": 6.5,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -1526,11 +1655,13 @@
             {
               "Name": "Solubility at reference pH",
               "Value": 0.7,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Reference pH",
-              "Value": 6.5
+              "Value": 6.5,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1541,7 +1672,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 5.3261558344E-05,
+              "Value": 5.3261558344e-05,
               "Unit": "dm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
@@ -1667,12 +1798,14 @@
       "Parameters": [
         {
           "Name": "Cl",
-          "Value": 2.0
+          "Value": 2.0,
+          "ValueOrigin": {}
         },
         {
           "Name": "Molecular weight",
           "Value": 705.633,
-          "Unit": "g/mol"
+          "Unit": "g/mol",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1687,7 +1820,8 @@
             {
               "Name": "Lipophilicity",
               "Value": 3.718,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1716,11 +1850,13 @@
             {
               "Name": "Solubility at reference pH",
               "Value": 1.0,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Reference pH",
-              "Value": 7.0
+              "Value": 7.0,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1808,12 +1944,14 @@
       "Parameters": [
         {
           "Name": "Cl",
-          "Value": 2.0
+          "Value": 2.0,
+          "ValueOrigin": {}
         },
         {
           "Name": "Molecular weight",
           "Value": 721.633,
-          "Unit": "g/mol"
+          "Unit": "g/mol",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1828,7 +1966,8 @@
             {
               "Name": "Lipophilicity",
               "Value": 4.2109086248,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1857,11 +1996,13 @@
             {
               "Name": "Solubility at reference pH",
               "Value": 1.0,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Reference pH",
-              "Value": 7.0
+              "Value": 7.0,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1949,12 +2090,14 @@
       "Parameters": [
         {
           "Name": "Cl",
-          "Value": 2.0
+          "Value": 2.0,
+          "ValueOrigin": {}
         },
         {
           "Name": "Molecular weight",
           "Value": 719.617,
-          "Unit": "g/mol"
+          "Unit": "g/mol",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1969,7 +2112,8 @@
             {
               "Name": "Lipophilicity",
               "Value": 5.1837535822,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1998,11 +2142,13 @@
             {
               "Name": "Solubility at reference pH",
               "Value": 1.0,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Reference pH",
-              "Value": 7.0
+              "Value": 7.0,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2025,7 +2171,8 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 0.0,
-              "Unit": "nmol/min/pmol rec. enzyme"
+              "Unit": "nmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
@@ -2085,12 +2232,14 @@
       "Parameters": [
         {
           "Name": "Cl",
-          "Value": 2.0
+          "Value": 2.0,
+          "ValueOrigin": {}
         },
         {
           "Name": "Molecular weight",
           "Value": 649.527,
-          "Unit": "g/mol"
+          "Unit": "g/mol",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -2228,7 +2377,8 @@
           "Parameters": [
             {
               "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 0.016
+              "Value": 0.016,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2239,7 +2389,8 @@
           "Parameters": [
             {
               "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 0.02
+              "Value": 0.02,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2361,7 +2512,8 @@
             {
               "Name": "Kd",
               "Value": 1.8,
-              "Unit": "nmol/l"
+              "Unit": "nmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2374,12 +2526,14 @@
             {
               "Name": "In vitro Vmax for liver microsomes",
               "Value": 0.18,
-              "Unit": "nmol/min/mg mic. protein"
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 3.9,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2392,12 +2546,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 2.16,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 2.16,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2410,7 +2566,8 @@
             {
               "Name": "In vitro Vmax for liver microsomes",
               "Value": 276.0,
-              "Unit": "pmol/min/mg mic. protein"
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {}
             },
             {
               "Name": "Content of CYP proteins in liver microsomes",
@@ -2467,7 +2624,8 @@
             {
               "Name": "In vitro Vmax for liver microsomes",
               "Value": 850.0,
-              "Unit": "pmol/min/mg mic. protein"
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
@@ -2500,12 +2658,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 1.96,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 2.69,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2518,12 +2678,14 @@
             {
               "Name": "In vitro Vmax for liver microsomes",
               "Value": 4.41,
-              "Unit": "nmol/min/mg mic. protein"
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 3.8,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2535,12 +2697,14 @@
             {
               "Name": "In vitro Vmax for liver microsomes",
               "Value": 850.0,
-              "Unit": "pmol/min/mg mic. protein"
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 4.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2552,7 +2716,8 @@
             {
               "Name": "In vitro Vmax for liver microsomes",
               "Value": 276.0,
-              "Unit": "pmol/min/mg mic. protein"
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {}
             },
             {
               "Name": "Content of CYP proteins in liver microsomes",
@@ -2566,7 +2731,8 @@
             {
               "Name": "Km",
               "Value": 37.8,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2578,16 +2744,19 @@
       "Parameters": [
         {
           "Name": "Cl",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Name": "F",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Name": "Molecular weight",
           "Value": 325.78,
-          "Unit": "g/mol"
+          "Unit": "g/mol",
+          "ValueOrigin": {}
         }
       ]
     }
@@ -2610,7 +2779,8 @@
         {
           "Name": "Lag time",
           "Value": 0.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Dissolution shape",
@@ -2623,7 +2793,8 @@
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     },
@@ -2634,20 +2805,24 @@
         {
           "Name": "Dissolution time (50% dissolved)",
           "Value": 138.95,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Lag time",
           "Value": 0.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Dissolution shape",
-          "Value": 0.82
+          "Value": 0.82,
+          "ValueOrigin": {}
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     },
@@ -2672,7 +2847,8 @@
         {
           "Name": "Lag time",
           "Value": 0.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Dissolution shape",
@@ -2685,7 +2861,8 @@
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     }
@@ -2706,17 +2883,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 15.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2725,16 +2905,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2756,17 +2939,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 15.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2782,12 +2968,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2802,17 +2990,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 15.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2828,12 +3019,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2855,17 +3048,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 200.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2874,7 +3070,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -2911,17 +3108,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 200.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2930,7 +3130,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -2966,17 +3167,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 0.05,
-                  "Unit": "mg/kg"
+                  "Unit": "mg/kg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 2.0,
-                  "Unit": "min"
+                  "Unit": "min",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2985,16 +3189,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3016,17 +3223,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 7.5,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3035,16 +3245,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3066,17 +3279,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 7.5,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3092,12 +3308,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3119,17 +3337,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 200.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3138,7 +3359,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -3175,17 +3397,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 7.5,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3194,16 +3419,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3225,17 +3453,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 7.5,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3251,12 +3482,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3278,17 +3511,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 100.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3297,7 +3533,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -3334,17 +3571,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 2.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3353,16 +3593,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3384,17 +3627,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 2.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3410,12 +3656,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3437,17 +3685,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 50.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3456,16 +3707,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3487,17 +3741,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 200.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3506,16 +3763,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3537,17 +3797,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 400.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3556,16 +3819,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3587,17 +3853,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 7.5,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3606,16 +3875,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3637,17 +3909,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 7.5,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3663,12 +3938,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -3683,17 +3960,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 7.5,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3709,12 +3989,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -3728,17 +4010,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 0.05,
-                  "Unit": "mg/kg"
+                  "Unit": "mg/kg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 2.0,
-                  "Unit": "min"
+                  "Unit": "min",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3754,12 +4039,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3781,17 +4068,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 0.01,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3800,16 +4090,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3831,17 +4124,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 0.01,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3857,12 +4153,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3884,17 +4182,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 200.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3903,7 +4204,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -3940,17 +4242,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 200.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -3959,7 +4264,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -3995,17 +4301,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 1.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 2.0,
-                  "Unit": "min"
+                  "Unit": "min",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -4014,16 +4323,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4044,17 +4356,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 1.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 2.0,
-                  "Unit": "min"
+                  "Unit": "min",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -4070,12 +4385,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4098,7 +4415,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4111,7 +4429,8 @@
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4120,7 +4439,8 @@
         {
           "Path": "Events|Olkkola 1996 - Midazolam - 7.5 mg po (Control day 1 and 6)|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -4498,7 +4818,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4511,7 +4832,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -4564,7 +4886,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -4617,7 +4940,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -4654,47 +4978,56 @@
         {
           "Path": "Events|Olkkola 1996 - Itraconazole - 200 mg OD 6 days|Capsule fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Olkkola 1996 - Itraconazole - 200 mg OD 6 days|Capsule fasted|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Olkkola 1996 - Itraconazole - 200 mg OD 6 days|Capsule fasted|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Olkkola 1996 - Itraconazole - 200 mg OD 6 days|Capsule fasted|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Olkkola 1996 - Itraconazole - 200 mg OD 6 days|Capsule fasted|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Olkkola 1996 - Itraconazole - 200 mg OD 6 days|Capsule fasted|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|Olkkola 1996 - Midazolam - PO-IV-PO|Application_2|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Olkkola 1996 - Midazolam - PO-IV-PO|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
           "Value": 2.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Olkkola 1996 - Midazolam - PO-IV-PO|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Olkkola 1996 - Midazolam - PO-IV-PO|Tablet (Dormicum)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -5074,6 +5407,33 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Hydroxy-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "ABCB1-Shityakov 2014",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Keto-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "N-desalkyl-Itraconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -5177,33 +5537,6 @@
           },
           "OriginText": "Itraconazole-Midazolam-DDI\nDDI Treatment - Itraconazole/Midazolam - Olkkola 1996\n2019-05-08 18:00"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Hydroxy-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "ABCB1-Shityakov 2014",
-          "MoleculeName": "ABCB1",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Keto-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "N-desalkyl-Itraconazole"
-        }
       ]
     },
     {
@@ -5219,7 +5552,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -5232,7 +5566,8 @@
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -5241,7 +5576,8 @@
         {
           "Path": "Events|Backman 1998 - Midazolam - 15 mg (Phase I Control)|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -5607,7 +5943,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -5620,7 +5957,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -5673,7 +6011,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -5710,32 +6049,38 @@
         {
           "Path": "Events|Backman 1998 - Itraconazole - 200 mg OD 4 days|Capsule fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Backman 1998 - Itraconazole - 200 mg OD 4 days|Capsule fasted|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Backman 1998 - Itraconazole - 200 mg OD 4 days|Capsule fasted|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Backman 1998 - Itraconazole - 200 mg OD 4 days|Capsule fasted|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Backman 1998 - Midazolam - 15 mg (Phase II and III with Itraconazole)|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Backman 1998 - Midazolam - 15 mg (Phase II and III with Itraconazole)|Tablet (Dormicum)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -6115,6 +6460,33 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Hydroxy-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "ABCB1-Shityakov 2014",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Keto-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "N-desalkyl-Itraconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -6207,33 +6579,6 @@
           },
           "OriginText": "Itraconazole-Midazolam-DDI\nDDI Treatment - Itraconazole/Midazolam - Backman 1998\n2019-05-08 17:58"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Hydroxy-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "ABCB1-Shityakov 2014",
-          "MoleculeName": "ABCB1",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Keto-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "N-desalkyl-Itraconazole"
-        }
       ]
     },
     {
@@ -6249,7 +6594,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -6262,7 +6608,8 @@
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -6271,7 +6618,8 @@
         {
           "Path": "Events|Olkkola 1994 - Midazolam - 7.5 mg (Control)|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -6636,7 +6984,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -6649,7 +6998,8 @@
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -6658,7 +7008,8 @@
         {
           "Path": "Events|Ahonen 1995 - Midazolam - 7.5 mg (Control)|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -7022,7 +7373,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -7035,7 +7387,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7072,27 +7425,32 @@
         {
           "Path": "Events|Ahonen 1995 - Itraconazole - 100 mg OD 4 days|Capsule fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Ahonen 1995 - Itraconazole - 100 mg OD 4 days|Capsule fasted|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Ahonen 1995 - Itraconazole - 100 mg OD 4 days|Capsule fasted|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Ahonen 1995 - Itraconazole - 100 mg OD 4 days|Capsule fasted|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Ahonen 1995 - Midazolam - 7.5 mg (with Itraconazole)|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -7472,6 +7830,33 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Hydroxy-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "ABCB1-Shityakov 2014",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Keto-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "N-desalkyl-Itraconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -7553,33 +7938,6 @@
           },
           "OriginText": "Itraconazole-Midazolam-DDI\nDDI Treatment - Itraconazole/Midazolam - Ahonen 1995\n2019-04-24 14:55"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Hydroxy-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "ABCB1-Shityakov 2014",
-          "MoleculeName": "ABCB1",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Keto-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "N-desalkyl-Itraconazole"
-        }
       ]
     },
     {
@@ -7595,7 +7953,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -7608,7 +7967,8 @@
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -7617,7 +7977,8 @@
         {
           "Path": "Events|Templeton 2010 - Midazolam - 2 mg (Control)|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -7982,7 +8343,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -7995,7 +8357,8 @@
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -8004,12 +8367,14 @@
         {
           "Path": "Events|Templeton 2010 - Itraconazole - 50 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Templeton 2010 - Midazolam - 2 mg (with Itraconazole)|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -8389,6 +8754,33 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Hydroxy-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "ABCB1-Shityakov 2014",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Keto-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "N-desalkyl-Itraconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -8466,33 +8858,6 @@
           },
           "OriginText": "Itraconazole-Midazolam-DDI\nDDI Treatment - Itraconazole/Midazolam - Templeton 2010 (50 mg)\n2019-05-08 18:10"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Hydroxy-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "ABCB1-Shityakov 2014",
-          "MoleculeName": "ABCB1",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Keto-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "N-desalkyl-Itraconazole"
-        }
       ]
     },
     {
@@ -8508,7 +8873,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -8521,7 +8887,8 @@
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -8530,12 +8897,14 @@
         {
           "Path": "Events|Templeton 2010 - Itraconazole - 200 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Templeton 2010 - Midazolam - 2 mg (with Itraconazole)|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -8915,6 +9284,33 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Hydroxy-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "ABCB1-Shityakov 2014",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Keto-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "N-desalkyl-Itraconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -8996,33 +9392,6 @@
           },
           "OriginText": "Itraconazole-Midazolam-DDI\nDDI Treatment - Itraconazole/Midazolam - Templeton 2010 (200 mg)\n2019-05-08 18:07"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Hydroxy-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "ABCB1-Shityakov 2014",
-          "MoleculeName": "ABCB1",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Keto-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "N-desalkyl-Itraconazole"
-        }
       ]
     },
     {
@@ -9038,7 +9407,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -9051,7 +9421,8 @@
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -9060,12 +9431,14 @@
         {
           "Path": "Events|Templeton 2010 - Itraconazole - 400 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Templeton 2010 - Midazolam - 2 mg (with Itraconazole)|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -9445,6 +9818,33 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Hydroxy-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "ABCB1-Shityakov 2014",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Keto-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "N-desalkyl-Itraconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -9522,33 +9922,6 @@
           },
           "OriginText": "Itraconazole-Midazolam-DDI\nDDI Treatment - Itraconazole/Midazolam - Templeton 2010 (400 mg)\n2019-05-08 18:09"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Hydroxy-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "ABCB1-Shityakov 2014",
-          "MoleculeName": "ABCB1",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Keto-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "N-desalkyl-Itraconazole"
-        }
       ]
     },
     {
@@ -9564,7 +9937,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -9577,16 +9951,18 @@
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|Olkkola 1996 - Midazolam - 0.05 mg/kg iv (Control day 4)|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Olkkola 1996 - Midazolam - 0.05 mg/kg iv (Control day 4)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 2.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -9945,7 +10321,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -9958,7 +10335,8 @@
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -9967,7 +10345,8 @@
         {
           "Path": "Events|Prueksaritanont 2017 - Midazolam - 0.01 mg (Control)|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -10332,7 +10711,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -10345,7 +10725,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -10382,32 +10763,38 @@
         {
           "Path": "Events|Prueksaritanont 2017 - Itraconazole - 200 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Prueksaritanont 2017 - Itraconazole - 200 mg|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Prueksaritanont 2017 - Itraconazole - 200 mg|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Prueksaritanont 2017 - Itraconazole - 200 mg|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Prueksaritanont 2017 - Itraconazole - 200 mg|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Prueksaritanont 2017 - Midazolam - 0.01 mg (with Itraconazole)|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -10787,6 +11174,28 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Hydroxy-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Keto-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "N-desalkyl-Itraconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -10864,28 +11273,6 @@
           },
           "OriginText": "Itraconazole-Midazolam-DDI\nDDI Treatment - Itraconazole/Midazolam - Prueksaritanont 2017\n2020-03-11 09:56"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Hydroxy-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Keto-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "N-desalkyl-Itraconazole"
-        }
       ]
     },
     {
@@ -10902,7 +11289,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -10915,7 +11303,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -10952,27 +11341,32 @@
         {
           "Path": "Events|Olkkola 1994 - Itraconazole - 200 mg OD 4 days|Capsule fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Olkkola 1994 - Itraconazole - 200 mg OD 4 days|Capsule fasted|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Olkkola 1994 - Itraconazole - 200 mg OD 4 days|Capsule fasted|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Olkkola 1994 - Itraconazole - 200 mg OD 4 days|Capsule fasted|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Olkkola 1994 - Midazolam - 7.5 mg (with Itraconazole)|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -11352,6 +11746,28 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Hydroxy-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Keto-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "N-desalkyl-Itraconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -11444,28 +11860,6 @@
           },
           "OriginText": "Itraconazole-Midazolam-DDI\nDDI Treatment - Itraconazole/Midazolam - Olkkola 1994\n2020-03-26 10:57"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Hydroxy-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Keto-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "N-desalkyl-Itraconazole"
-        }
       ]
     },
     {
@@ -11481,7 +11875,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -11494,16 +11889,18 @@
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|Yu 2004 - Midazolam - iv 1 mg (Control)|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Yu 2004 - Midazolam - iv 1 mg (Control)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 2.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -11861,7 +12258,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -11874,7 +12272,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -11909,39 +12308,46 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Yu 2004 - Midazolam - iv 2 mg (with Itraconazole)|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Yu 2004 - Midazolam - iv 2 mg (with Itraconazole)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 2.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Yu 2014 - Itraconazole - 200 mg OD 4 days|Capsule fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Yu 2014 - Itraconazole - 200 mg OD 4 days|Capsule fasted|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Yu 2014 - Itraconazole - 200 mg OD 4 days|Capsule fasted|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Yu 2014 - Itraconazole - 200 mg OD 4 days|Capsule fasted|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Yu 2014 - Itraconazole - 200 mg OD 4 days|Capsule fasted|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Yu 2014 - Itraconazole - 200 mg OD 4 days|Capsule fasted|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -12315,6 +12721,28 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Hydroxy-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Keto-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "N-desalkyl-Itraconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -12391,28 +12819,6 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Itraconazole-Midazolam-DDI\nDDI Treatment - Itraconazole/Midazolam - Yu 2004 (CYP3A5 s3,s3)\n2020-03-26 11:44"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Hydroxy-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Keto-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "N-desalkyl-Itraconazole"
         }
       ]
     }
@@ -12529,12 +12935,12 @@
               "Values": [
                 "NaN",
                 0.03886638,
-                0.0388664119,
+                0.038866412,
                 0.03765183,
-                0.0340080932,
-                0.0291497968,
-                0.0218623411,
-                0.0157894827,
+                0.034008093,
+                0.029149797,
+                0.021862341,
+                0.015789483,
                 "NaN",
                 "NaN",
                 "NaN"
@@ -12550,18 +12956,18 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 2E-09
+            "LLOQ": 2e-09
           },
           "Values": [
             0.0009999999,
-            0.0251012184,
-            0.0473684222,
+            0.025101218,
+            0.047368422,
             0.05384615,
             0.05425101,
             0.04574899,
             0.02712551,
             0.01862348,
-            0.0145748993,
+            0.014574899,
             0.008906882,
             0.006477733
           ],
@@ -12706,16 +13112,16 @@
               },
               "Values": [
                 "NaN",
-                0.0704453439,
+                0.070445344,
                 0.06194331,
                 0.05465583,
                 0.0510123,
-                0.0449392535,
+                0.044939253,
                 0.03643725,
-                0.0279352218,
-                0.0255060643,
-                0.0255060848,
-                0.0206477866,
+                0.027935222,
+                0.025506064,
+                0.025506085,
+                0.020647787,
                 "NaN"
               ],
               "Dimension": "Concentration (mass)",
@@ -12729,21 +13135,21 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 2E-09
+            "LLOQ": 2e-09
           },
           "Values": [
             0.0009999999,
             0.04939271,
-            0.0947368443,
+            0.094736844,
             0.1008097,
             0.102429196,
             0.07570851,
             0.05425101,
             0.04089069,
             0.0340081,
-            0.0234817788,
+            0.023481779,
             0.01781376,
-            0.00728744874
+            0.0072874487
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -12887,16 +13293,16 @@
               },
               "Values": [
                 "NaN",
-                0.140890643,
+                0.14089064,
                 0.09716607,
                 0.09352221,
                 0.08137658,
                 0.05465583,
-                0.0461538024,
-                0.0388664119,
-                0.0352226719,
+                0.046153802,
+                0.038866412,
+                0.035222672,
                 0.02672065,
-                0.0194332041,
+                0.019433204,
                 "NaN"
               ],
               "Dimension": "Concentration (mass)",
@@ -12910,7 +13316,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 2E-09
+            "LLOQ": 2e-09
           },
           "Values": [
             0.0009999999,
@@ -12921,8 +13327,8 @@
             0.142915,
             0.120647795,
             0.1,
-            0.0878542438,
-            0.0692307651,
+            0.087854244,
+            0.069230765,
             0.05465587,
             0.02672065
           ],
@@ -13092,7 +13498,7 @@
           },
           "Values": [
             0.004093904,
-            0.0183202587,
+            0.018320259,
             0.01903854,
             0.01712886,
             0.0103091,
@@ -13100,7 +13506,7 @@
             0.003608443,
             0.002604661,
             0.001976102,
-            0.000183417011
+            0.00018341701
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -13244,12 +13650,12 @@
                 0.02251343,
                 0.02983033,
                 0.024201965,
-                0.0185735878,
-                0.0213919263,
-                0.0185693782,
-                0.0135038579,
+                0.018573588,
+                0.021391926,
+                0.018569378,
+                0.013503858,
                 0.01181955,
-                0.0106896861,
+                0.010689686,
                 "NaN"
               ],
               "Dimension": "Concentration (mass)",
@@ -13266,12 +13672,12 @@
           },
           "Values": [
             0.02191844,
-            0.0475905277,
+            0.047590528,
             0.05994076,
             0.06384705,
             0.06584505,
             0.05508265,
-            0.0409446321,
+            0.040944632,
             0.0345001,
             0.0316188,
             0.01275342
@@ -13418,13 +13824,13 @@
                 0.08882394,
                 0.11998111,
                 0.1366748,
-                0.177135512,
-                0.134688988,
+                0.17713551,
+                0.13468899,
                 0.15191631,
                 "NaN",
-                0.159863576,
-                0.119740859,
-                0.112592973,
+                0.15986358,
+                0.11974086,
+                0.11259297,
                 0.07905717
               ],
               "Dimension": "Concentration (mass)",
@@ -13592,8 +13998,8 @@
                 "MolWeight": 325.77
               },
               "Values": [
-                0.0275837779,
-                0.0166816413,
+                0.027583778,
+                0.016681641,
                 "NaN",
                 "NaN",
                 "NaN",
@@ -13617,7 +14023,7 @@
           },
           "Values": [
             0.01868173,
-            0.0349552333,
+            0.034955233,
             0.03400785,
             0.03435674,
             0.0278325,
@@ -13766,7 +14172,7 @@
                 "MolWeight": 325.77
               },
               "Values": [
-                0.0178647321,
+                0.017864732,
                 "NaN",
                 "NaN",
                 "NaN",
@@ -13792,10 +14198,10 @@
           },
           "Values": [
             0.06076493,
-            0.0559688173,
+            0.055968817,
             0.04453434,
             0.03770448,
-            0.0323472321,
+            0.032347232,
             0.02605452,
             0.02325883,
             0.01862221,
@@ -13944,12 +14350,12 @@
               },
               "Values": [
                 0.03495861,
-                0.0343229845,
+                0.034322985,
                 0.02542443,
-                0.0209751483,
-                0.0171591863,
-                0.0216107517,
-                0.0158902779,
+                0.020975148,
+                0.017159186,
+                0.021610752,
+                0.015890278,
                 0.011440997,
                 "NaN",
                 "NaN"
@@ -13967,13 +14373,13 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.0242034215,
+            0.024203422,
             0.06161909,
-            0.0671077147,
+            0.067107715,
             0.06085262,
             0.05494989,
             0.05399993,
-            0.0413062572,
+            0.041306257,
             0.03485175,
             0.032802213,
             0.01394685
@@ -14119,10 +14525,10 @@
             0.01991837,
             0.01697959,
             0.01077551,
-            0.00636734674,
+            0.0063673467,
             0.004081633,
             0.002612245,
-            0.00130612194,
+            0.0013061219,
             0.0011428569,
             0.0001632653
           ],
@@ -14268,11 +14674,11 @@
             0.02987755,
             0.02106122,
             0.0122449,
-            0.00865306053,
+            0.0086530605,
             0.005551021,
             0.003265306,
             0.001632653,
-            0.000816326647
+            0.00081632665
           ],
           "Dimension": "Concentration (molar)",
           "Unit": "µmol/l"
@@ -14412,14 +14818,14 @@
           },
           "Values": [
             0.0005,
-            0.0497959219,
+            0.049795922,
             0.04816327,
-            0.0344489776,
+            0.034448978,
             0.02269388,
             0.0164898,
             0.01338776,
             0.009959184,
-            0.00604081573,
+            0.0060408157,
             0.003102041
           ],
           "Dimension": "Concentration (molar)",
@@ -14710,7 +15116,7 @@
               },
               "Values": [
                 0.020975152,
-                0.0139834322,
+                0.013983432,
                 "NaN",
                 "NaN",
                 "NaN",
@@ -14739,9 +15145,9 @@
             0.01920152,
             0.01201307,
             0.00794386,
-            0.00497622928,
+            0.0049762293,
             0.004393238,
-            0.00381091121,
+            0.0038109112,
             0.000184149
           ],
           "Dimension": "Concentration (mass)",
@@ -14880,16 +15286,16 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.0541352332,
+            0.054135233,
             0.04252526,
             0.02869672,
             0.020577088,
             0.01595714,
-            0.0107687106,
+            0.010768711,
             0.008157839,
             0.005731124,
-            0.00496183475,
-            0.00456153043
+            0.0049618348,
+            0.0045615304
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -15202,8 +15608,8 @@
               },
               "Values": [
                 0.02309185,
-                0.0160241257,
-                0.0108415578,
+                0.016024126,
+                0.010841558,
                 "NaN",
                 "NaN",
                 "NaN",
@@ -15375,14 +15781,14 @@
                 "MolWeight": 325.77
               },
               "Values": [
-                0.0612704344,
+                0.061270434,
                 0.04147593,
-                0.0254500918,
+                0.025450092,
                 0.02215099,
-                0.0164954215,
-                0.0160241257,
-                0.0169667024,
-                0.0127250273,
+                0.016495422,
+                0.016024126,
+                0.016966702,
+                0.012725027,
                 "NaN",
                 "NaN"
               ],
@@ -15400,13 +15806,13 @@
           },
           "Values": [
             0.04025995,
-            0.0641931742,
+            0.064193174,
             0.06445337,
             0.06348912,
             0.05407674,
             0.04616143,
             0.03457322,
-            0.0278828684,
+            0.027882868,
             0.02486642,
             0.01006734
           ],
@@ -15549,16 +15955,16 @@
                 "MolWeight": 325.77
               },
               "Values": [
-                1.05397E-06,
+                1.05397e-06,
                 "NaN",
                 "NaN",
-                3.84880082E-07,
-                6.304204E-06,
-                1.709629E-06,
-                1.68889E-06,
-                1.58605008E-06,
-                5.677239E-06,
-                7.295083E-06
+                3.8488008e-07,
+                6.304204e-06,
+                1.709629e-06,
+                1.68889e-06,
+                1.5860501e-06,
+                5.677239e-06,
+                7.295083e-06
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -15571,19 +15977,19 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 5E-13
+            "LLOQ": 5e-13
           },
           "Values": [
-            5.179475E-05,
-            4.04709026E-05,
-            2.912633E-05,
-            1.8914101E-05,
-            1.279802E-05,
-            5.287061E-06,
-            3.964736E-06,
-            2.184166E-06,
-            3.16227784E-06,
-            2.91263314E-06
+            5.179475e-05,
+            4.0470903e-05,
+            2.912633e-05,
+            1.8914101e-05,
+            1.279802e-05,
+            5.287061e-06,
+            3.964736e-06,
+            2.184166e-06,
+            3.1622778e-06,
+            2.9126331e-06
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -15724,22 +16130,22 @@
                 "MolWeight": 325.77
               },
               "Values": [
-                1.199855E-06,
-                1.639831E-05,
+                1.199855e-06,
+                1.639831e-05,
                 "NaN",
-                8.64603E-05,
-                7.13987E-05,
-                4.730522E-05,
-                4.542156E-05,
-                4.138378E-05,
-                2.80019E-05,
-                2.233434E-05,
-                1.574662E-05,
-                1.4044751E-05,
-                1.23104E-05,
-                1.46297589E-05,
-                4.417688E-06,
-                1.912377E-06
+                8.64603e-05,
+                7.13987e-05,
+                4.730522e-05,
+                4.542156e-05,
+                4.138378e-05,
+                2.80019e-05,
+                2.233434e-05,
+                1.574662e-05,
+                1.4044751e-05,
+                1.23104e-05,
+                1.4629759e-05,
+                4.417688e-06,
+                1.912377e-06
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -15752,25 +16158,25 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 5E-13
+            "LLOQ": 5e-13
           },
           "Values": [
-            4.04709E-07,
-            2.470911E-05,
+            4.04709e-07,
+            2.470911e-05,
             0.000104197505,
-            0.000193069791,
+            0.00019306979,
             0.0001706644,
             0.0001418358,
             0.0001085711,
-            8.659645E-05,
-            5.85945381E-05,
-            4.673507E-05,
-            3.29501272E-05,
-            2.323119E-05,
-            1.742093E-05,
-            1.571913E-05,
-            5.179475E-06,
-            1.815217E-06
+            8.659645e-05,
+            5.8594538e-05,
+            4.673507e-05,
+            3.2950127e-05,
+            2.323119e-05,
+            1.742093e-05,
+            1.571913e-05,
+            5.179475e-06,
+            1.815217e-06
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -15922,7 +16328,7 @@
                 "NaN",
                 "NaN",
                 "NaN",
-                0.00163649593,
+                0.0016364959,
                 "NaN",
                 0.0004333923,
                 0.00042366542,
@@ -15939,10 +16345,10 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 1E-10
+            "LLOQ": 1e-10
           },
           "Values": [
-            0.0372217223,
+            0.037221722,
             0.01399644,
             0.01107255,
             0.00807383,
@@ -16087,17 +16493,17 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 1E-10
+            "LLOQ": 1e-10
           },
           "Values": [
             0.041213952,
             0.01842836,
             0.01238569,
             0.008240038,
-            0.00510463351,
-            0.00242636283,
-            0.00145786291,
-            0.000744185934,
+            0.0051046335,
+            0.0024263628,
+            0.0014578629,
+            0.00074418593,
             0.0005209717
           ],
           "Dimension": "Concentration (mass)",
@@ -16233,7 +16639,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 1E-10
+            "LLOQ": 1e-10
           },
           "Values": [
             0.0495097,
@@ -16393,9 +16799,9 @@
                 "NaN",
                 0.001588776,
                 0.001504423,
-                0.00142460794,
+                0.0014246079,
                 0.001086167,
-                0.000812610961,
+                0.00081261096,
                 "NaN"
               ],
               "Dimension": "Concentration (mass)",
@@ -16409,14 +16815,14 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 1E-10
+            "LLOQ": 1e-10
           },
           "Values": [
             0.03182563,
             0.01844049,
-            0.0151044708,
-            0.0129013211,
-            0.0114917289,
+            0.015104471,
+            0.012901321,
+            0.011491729,
             0.008033791,
             0.005911017,
             0.003600821,
@@ -16585,7 +16991,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 1E-10
+            "LLOQ": 1e-10
           },
           "Values": [
             0.03284103,
@@ -16758,13 +17164,13 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 1E-10
+            "LLOQ": 1e-10
           },
           "Values": [
             0.04741251,
             0.024737671,
             0.017858021,
-            0.0149356211,
+            0.014935621,
             0.01089087,
             0.007602762,
             0.005593879,
